@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://g00393988:admin@yours.hfgz6.mongodb.net/');
+mongoose.connect('mongodb+srv://admin:admin@yours.hfgz6.mongodb.net/');
 
 const movieSchema = new mongoose.Schema({
   title:String,
